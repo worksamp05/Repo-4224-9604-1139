@@ -10,10 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.hiresmart.dao.EmployeeDao;
 import com.hiresmart.model.Employee;
 
-/**
- * @author Dinesh Rajput
- *
- */
+
 @Service("employeeService")
 @Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
 public class EmployeeServiceImpl implements EmployeeService {
