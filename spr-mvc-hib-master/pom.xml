@@ -5,6 +5,7 @@
 	<artifactId>spring</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
+	<url>http://maven.apache.org</url>
 
 	<properties>
 		<hibernate.version>4.1.2.Final</hibernate.version>
@@ -12,6 +13,12 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc6</artifactId>
+			<version>11.2.0.3</version>
+		</dependency>
+
 		<!-- DB related dependencies -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -106,8 +113,8 @@
 			<url>http://maven.springframework.org/milestone</url>
 		</repository>
 		<repository>
-			<id>lib</id>
-			<url>file://${project.basedir}/WEB-INF/lib</url>
+			<id>codelds</id>
+			<url>https://code.lds.org/nexus/content/groups/main-repo</url>
 		</repository>
 	</repositories>
 
