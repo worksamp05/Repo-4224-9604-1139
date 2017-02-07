@@ -13,7 +13,7 @@
 		<form:form method="POST" action="/save.html">
 	   		<table>
 			    <tr>
-			        <td><form:label path="id">Employee ID:</form:label></td>
+			        <td><form:label path="id">Employee Id:</form:label></td>
 			        <td><form:input path="id" value="${employee.id}" readonly="true"/></td>
 			    </tr>
 			    <tr>
