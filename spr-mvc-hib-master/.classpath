@@ -28,8 +28,7 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/ojdbc14.jar"/>
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/servlet-api.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_111/lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/ojdbc14-11.2.0.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

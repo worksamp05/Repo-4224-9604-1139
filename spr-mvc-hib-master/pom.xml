@@ -13,13 +13,14 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
+	<dependency>
 			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc6</artifactId>
+			<artifactId>ojdbc14</artifactId>
 			<version>11.2.0.3</version>
+			 <type>jar</type>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/ojdbc14-11.2.0.3.jar</systemPath>
 		</dependency>
-
-		<!-- DB related dependencies -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
@@ -113,8 +114,8 @@
 			<url>http://maven.springframework.org/milestone</url>
 		</repository>
 		<repository>
-			<id>codelds</id>
-			<url>https://code.lds.org/nexus/content/groups/main-repo</url>
+			<id>oracle</id>
+			<url>https://mailerfilestorage.blob.core.windows.net</url>
 		</repository>
 	</repositories>
 
