@@ -9,7 +9,7 @@
 		<title>Spring MVC Form Handling</title>
 	</head>
 	<body>
-		<h2>Add Employee Data</h2>
+		<h2>Add Employee Data </h2>
 		<form:form method="POST" action="/save.html">
 	   		<table>
 			    <tr>
